@@ -1,0 +1,126 @@
+*  ::after, ::before{
+    font-family: sans-serif;
+   box-sizing: border-box;
+}
+div{
+    display: block;}
+
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: auto auto;
+    padding: 10px; 
+
+}
+.pic{
+    position: absolute;
+    box-shadow: 0 32px 84px 0 ;
+   
+}
+
+
+img{
+    display: flex;      
+    max-width: 100%;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.font1{
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    
+    
+}
+.font2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.picicon{
+    display: flex;
+    justify-content: center;
+    margin: 34px 75px;
+    padding: 0;
+}
+
+a{
+    padding: 20px;
+    align-items: center;
+}
+
+.color{
+    color: rgb(15, 224, 212);
+}
+
+.link{
+    color: #fff;
+}
+.link:hover{
+    color: rgb(15, 224, 212);
+    transition: all 0.3s ease;
+}
+
+.box{
+    width: 70%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+   
+}
+.rightcol{
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;   
+    margin-left: 410px; 
+}
+.services{
+    background-color: rgb(243, 237, 237);
+    margin: 40px 0;
+    padding: 70px;
+
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 400px;
+
+}
+
+.myser{
+    display: grid;
+    grid-template-columns: 150px 150px ;
+    grid-template-rows: 150px 150px;
+    column-gap: 5pc;
+    row-gap: 1pc;
+    
+}
+h1{
+    font-size: 45px;
+}
+i{
+    color:rgb(15, 224, 212) ;
+}
+.icon{
+    color:rgb(15, 224, 212) ;
+    display: flex;
+    
+}
