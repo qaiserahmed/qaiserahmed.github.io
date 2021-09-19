@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.navbar {
+    background: #ff756b;
+}
+
+.btnlog {
+    border: 2px solid #ff756b;
+    border-radius: 0 15px 0 15px;
+    background: white;
+    height: 40px;
+    padding: 5px;
+}
+
+
+/* #logOut{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+} */
+
+.nav-item {
+    float: right !important;
+}
+
+.mt-5 {
+    background: rgb(255,198,106);
+    background: radial-gradient(circle, rgba(255,198,106,1) 0%, rgba(254,92,204,1) 100%);
+    border: 1px solid #ff756b;
+    border-radius: 0;
+    box-shadow: #ff756b 10px 10px 10px;
+}
+
+
+/* *,
+*::before
+*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+
+/* .main_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f6f6;
+    display: grid;
+    place-items: center;
+
+} */
+.game_level1{
+    width: 650px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+    text-align: center;
+    padding: 5% 5%;
+}
+.title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    color: #171717;
+    margin: 2rem 0 0.5rem 0;
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+.title #text {
+    color: #cccaca;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+#level_1 {
+    text-align: left;
+}
+
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+    
+}
+
+.blue {
+    color:#3f7abe;
+}
+
+h1{
+    margin: auto;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    color: #08a3d9;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000380;
+    text-align: left;
+}
+
+#balloon-gallery div{
+    background: #ff3300;
+    height: 90px;
+    width: 88px;
+    text-align: center;
+    color: #ff3300;
+    font-size: 35px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 15px;
+    display: inline-block;
+    /* float: left; */
+    margin: 2.5px 5 px 2.5px 0px;
+}
+
+#balloon-gallery div:nth-child(3n){
+    background: #ffce00;
+    color: #ffce00;
+}
+
+#balloon-gallery div:nth-child(3n-1){
+    background:#3f7abe;
+    color:#3f7abe;
+}
+
+#balloon-gallery div:nth-child(5n){
+    background:#8e7a8e;
+    color:#8e7a8e;
+}
+
+#balloon-gallery div:nth-child(13){
+    background:#8e7a8e;
+    color:#8e7a8e;
+}
+
+#balloon-gallery div:nth-child(10n){
+    background:#ff3300;
+    color: #ff3300;
+}
+
+#balloon-gallery div:nth-child(4n){
+    clear:right;
+}
+
+#yay-no-balloons {
+    display:none;
+    color:#ff3300;
+    font-size:100px;
+}
